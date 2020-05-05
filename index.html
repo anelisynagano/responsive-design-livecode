@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Design</title>
+    <link rel="stylesheet" type="text/css" href="livecode.css"></link>
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+    <!-- 
+        header = parent
+        header-img header-text = child
+        here is an article explaining parent and child relationship
+        https://css-tricks.com/absolute-positioning-inside-relative-positioning/
+    -->
+    <div class="header">
+        <img class="header-img"  src="./images/header.jpg" />
+        <p class="header-text">Welcome To World Travel</p>
+    </div>
+
+    <!-- BOX CONTAINER SECTION -->
+    <!-- 
+        box-container is the parent div to each individual box element.
+        It is responsible for using flexbox on the child elements being each box
+    -->
+    <div class="box-container">
+
+        <div class="box">
+            <img class="box-img" src="images/box-1-img.jpg" />
+            <p class="box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sunt rerum commodi minus quaerat! Delectus numquam at quisquam vitae, iste consequatur corrupti. Asperiores quia fuga eligendi quasi repudiandae ad sed?</p>
+        </div>
+
+        <div class="box">
+            <img class="box-img" src="images/box-2-img.jpg" />
+            <p class="box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sunt rerum commodi minus quaerat! Delectus numquam at quisquam vitae, iste consequatur corrupti. Asperiores quia fuga eligendi quasi repudiandae ad sed?</p>
+        </div>
+
+        <div class="box">
+            <img class="box-img" src="images/box-3-img.jpg" />
+            <p class="box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sunt rerum commodi minus quaerat! Delectus numquam at quisquam vitae, iste consequatur corrupti. Asperiores quia fuga eligendi quasi repudiandae ad sed?</p>
+        </div>
+
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <!-- Footer is using flexbox with the property space-between in order create the space between the footer-text and footer-logo -->
+    <div class="footer">
+        <img class="footer-logo" src="./images/logo.svg" />
+        <p class="footer-text">Copyright 2020, All rights Reserved.</p>
+    </div>
+
+</body>
+</html>
